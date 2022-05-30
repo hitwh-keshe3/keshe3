@@ -70,12 +70,12 @@
                 @click.native="$router.push('/consumerinfo/history')"
                 >历史订单</el-dropdown-item
               >
-              <el-dropdown-item
+              <!-- <el-dropdown-item
                 icon="el-icon-bell"
                 class="dropdown"
                 @click.native="$router.push('/consumerinfo/contact')"
                 >店家互动</el-dropdown-item
-              >
+              > -->
               <el-dropdown-item
                 icon="el-icon-setting"
                 class="dropdown"
@@ -120,12 +120,12 @@
                 @click.native="$router.push('/shopinfo/history')"
                 >历史订单</el-dropdown-item
               >
-              <el-dropdown-item
+              <!-- <el-dropdown-item
                 icon="el-icon-bell"
                 class="dropdown"
                 @click.native="$router.push('/shopinfo/contact')"
                 >顾客互动</el-dropdown-item
-              >
+              > -->
               <!--              <el-dropdown-item icon="el-icon-key" class="dropdown" @click.native="$router.push('/shopinfo/password')">修改密码</el-dropdown-item>-->
               <el-dropdown-item
                 icon="el-icon-setting"

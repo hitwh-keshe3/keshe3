@@ -22,10 +22,10 @@ import ShopInfo from "@/views/shop/info/ShopInfo";
 import MenuEdit from "@/views/shop/menu_edit/MenuEdit";
 import SInfo from "@/views/shop/info/SInfo";
 import SHistory from "@/views/shop/info/SHistory";
-import SContact from "@/views/shop/info/SContact";
+// import SContact from "@/views/shop/info/SContact";
 import SPassword from "@/views/shop/info/SPassword";
 import SSetting from "@/views/shop/info/SSetting";
-import Contact from "@/views/consumer/info/Contact";
+// import Contact from "@/views/consumer/info/Contact";
 import ConsumerSignIn from "@/views/login/ConsumerSignIn";
 import ShopSignIn from "@/views/login/ShopSignIn";
 import { Message, MessageBox } from "element-ui";
@@ -103,11 +103,11 @@ let constRouter = [
       {
         path: "/consumerinfo/setting",
         component: Setting
-      },
-      {
-        path: "/consumerinfo/contact",
-        component: Contact
       }
+      // {
+      //   path: "/consumerinfo/contact",
+      //   component: Contact
+      // }
     ]
   },
   {
@@ -126,10 +126,10 @@ let constRouter = [
         path: "/shopinfo/history",
         component: SHistory
       },
-      {
-        path: "/shopinfo/contact",
-        component: SContact
-      },
+      // {
+      //   path: "/shopinfo/contact",
+      //   component: SContact
+      // },
       {
         path: "/shopinfo/password",
         component: SPassword

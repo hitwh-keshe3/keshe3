@@ -13,10 +13,10 @@
               <i class="el-icon-s-order"></i>
               <span slot="title">历史订单</span>
             </el-menu-item>
-            <el-menu-item index="3" class="title" @click="$router.push('/consumerinfo/contact')">
+            <!-- <el-menu-item index="3" class="title" @click="$router.push('/consumerinfo/contact')">
               <i class="el-icon-bell"></i>
               <span slot="title">店家互动</span>
-            </el-menu-item>
+            </el-menu-item> -->
             <el-menu-item index="4" class="title" @click="$router.push('/consumerinfo/password')">
               <i class="el-icon-key"></i>
               <span slot="title">修改密码</span>
